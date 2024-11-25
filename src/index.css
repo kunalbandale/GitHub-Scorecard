@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply antialiased text-gray-800;
+}
+
+.recharts-tooltip-wrapper {
+  @apply !outline-none;
+}
